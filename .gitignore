@@ -1,0 +1,7 @@
+# Ignore analysis files
+all_sponsors.txt
+non_ascii_chars.txt
+non_gallery_contexts.txt
+raw_home.html
+raw_outline.txt
+*.log
