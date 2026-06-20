@@ -1586,3 +1586,28 @@ footer {
 .sponsor-tier-title.no-lines::after {
     display: none !important;
 }
+
+/* Hero Section Logo Text branding replacement */
+.hero-logo-text {
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    font-family: var(--font-heading);
+    border-left: 2px solid rgba(255,255,255,0.15);
+    padding-left: 2rem;
+    display: inline-block;
+    line-height: 1.2;
+    max-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .hero-logo-text {
+        border-left: none !important;
+        padding-left: 0 !important;
+        text-align: center;
+        max-width: 100% !important;
+        margin-top: 1rem;
+    }
+}
+
