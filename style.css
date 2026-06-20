@@ -364,6 +364,32 @@ header.scrolled .logo-img {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.hero-logos-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .hero-logos-row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-logos-row {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .hero-logos-row .hero-logo-card {
+        width: 150px !important;
+        height: 97.5px !important;
+    }
+}
+
 .hero-logo-item {
     height: 70px;
     width: auto;
