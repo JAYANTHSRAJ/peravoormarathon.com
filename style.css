@@ -1579,3 +1579,10 @@ footer {
     opacity: 0;
     pointer-events: none;
 }
+
+
+/* Hide title decorative lines when top-tier sponsors are aligned side-by-side */
+.sponsor-tier-title.no-lines::before,
+.sponsor-tier-title.no-lines::after {
+    display: none !important;
+}
